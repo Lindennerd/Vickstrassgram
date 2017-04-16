@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href=".\styles\index.css">
+</head>
+
+<body>
+    <div id="header">
+        <ul class="menu">
+            <li><a href=".\index.html">VickstrassGram</a></li>
+            <li><a href=".\addPhoto.html">Adicionar foto</a></li>
+            <li class="align-right"><a href=".\leave.html">Sair</a></li>
+            <li class="align-right"><a href=".\profile.html">Perfil</a></li>
+        </ul>
+    </div>
+    <form  method="POST" id="addPhoto">
+        <div class="form-field">
+            <label for="file-upload">Imagem para upload</label>
+            <input type="file" name="file-upload">
+        </div>
+        <div class="form-field">
+            <label for="legend">Diga algo sobre essa imagem</label>
+            <input type="text" name="legend">
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+
+.image-card {
+    margin-top: 2px; 
+    padding: 10px;
+    border: solid 1px #eee;
+}
+
+    .image-card a img {
+        height: 100px;
+        width: 200px;
+    }
+
+.likes p a img {
+    height: 17px;
+    width: 20px;
+    float: right;
+}
+
+#images-list {
+    list-style-type: none;
+}
+
+    #images-list li {
+        float: left;
+    }
+
+#header {
+    text-align: center;
+}
+
+    #header .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+        width: 100%;
+    }
+
+    #header .menu li {
+        float: left;
+    }
+
+    #header .menu .align-right {
+        float: right;
+    }
+
+    #header .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    #header .menu li a:hover {
+        background-color: #111111;
+    }
+    
+#image-card {
+    padding: 10px;
+    border: solid 5px dodgerblue;
+    width: 37%;
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+#image-card .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: solid 5px dodgerblue;
+}
+
+#image-card .footer {
+    border-top: solid 5px dodgerblue;
+}
+
+#image-card .footer table {
+    width: 100%;
+}
+
+#addPhoto {
+    border: solid 5px dodgerblue;
+    width: 37%;
+    margin-left: 33%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#addPhoto .form-field {
+    margin-top: 10px;
+}
+
+#addPhoto .form-field label {
+    font-weight: 600;
+}
+
+#addPhoto .form-field input {
+    width: 100%;
+}
+
+#addPhoto input[type="submit"] {
+    margin-top: 50px;
+}
