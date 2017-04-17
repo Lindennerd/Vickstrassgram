@@ -1,13 +1,24 @@
-
-.image-card {
-    margin-top: 2px; 
-    padding: 10px;
-    border: solid 1px #eee;
+body { 
+    width: 100%; 
+    height: 100%; 
+    margin: 0px; 
+    padding: 0px; 
 }
 
-    .image-card a img {
-        height: 100px;
-        width: 200px;
+.text-center {
+    text-align: center;
+    background-color:  #42A5F5;
+}
+
+.image-thumb {
+    padding: 10px;
+    border: solid 1px #42A5F5;
+    height: 200px;
+    width: 200px;
+}
+
+    .image-thumb a img {
+        width: 100%;
     }
 
 .likes p a img {
@@ -33,8 +44,10 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333333;
+        background-color: #42A5F5;
         width: 100%;
+        border: solid 1px #0D47A1;
+        margin-bottom: 5px;
     }
 
     #header .menu li {
@@ -47,22 +60,25 @@
 
     #header .menu li a {
         display: block;
-        color: white;
+        color: black;
         text-align: center;
         padding: 16px;
         text-decoration: none;
+        font-weight: bold;
     }
 
     #header .menu li a:hover {
-        background-color: #111111;
+        background-color: #0D47A1;
     }
     
 #image-card {
-    padding: 10px;
-    border: solid 5px dodgerblue;
-    width: 37%;
+    border: solid 1px #42A5F5;
+    width: 500px;
     margin-left: 33%;
-    margin-top: 10px;
+}
+
+#image-card .body img{
+    width: 100%;
 }
 
 #image-card .title {
@@ -70,37 +86,59 @@
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
-    border-bottom: solid 5px dodgerblue;
-}
-
-#image-card .footer {
-    border-top: solid 5px dodgerblue;
+    background-color: #42A5F5;
+    
 }
 
 #image-card .footer table {
     width: 100%;
+    border-top: solid 1px #42A5F5;
 }
 
-#addPhoto {
-    border: solid 5px dodgerblue;
-    width: 37%;
+form {
     margin-left: 33%;
-    margin-top: 10px;
+    width: 500px;
     padding: 10px;
+    border: solid 1px #42A5F5;
+
 }
 
-#addPhoto .form-field {
+.image-field img{
+    width: 500px;
+    height: 200px;
+}
+
+.form-field {
     margin-top: 10px;
 }
 
-#addPhoto .form-field label {
-    font-weight: 600;
+#addPhoto .form-img-preview {
+    min-width: 100%;
+    height: 300px;
+    border: solid 1px #0D47A1;
 }
 
-#addPhoto .form-field input {
+
+#addPhoto .form-img-preview img{
     width: 100%;
 }
 
-#addPhoto input[type="submit"] {
+.form-field label {
+    font-weight: 600;
+}
+
+.form-field input {
+    width: 100%;
+}
+
+input[type="submit"] {
     margin-top: 50px;
+}
+
+#leave {
+    font-size: 100px;
+    margin-left: 5%;
+    margin-top: 15%;
+    font-family: cursive;
+    color: #42A5F5;
 }
